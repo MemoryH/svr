@@ -1,0 +1,28 @@
+{
+    "name": "base-svr/simple-base",
+    "description": "基础管理",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nothing",
+            "email": "nothing@foxmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8 || ^5.0"
+    },
+    "autoload": {
+        "classmap": [
+            "database"
+        ],
+        "psr-4": {
+            "App\\": "app/",
+            "Basesvr\\SimpleBase\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
